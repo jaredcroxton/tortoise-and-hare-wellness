@@ -1,78 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
-    <radialGradient id="bg1" cx="20%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#10B981" stop-opacity="0.35"/>
+    <radialGradient id="bg1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="bg2" cx="85%" cy="75%" r="60%">
-      <stop offset="0%" stop-color="#34D399" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <rect width="1200" height="630" fill="#FFF8F1"/>
-  <ellipse cx="240" cy="180" rx="520" ry="380" fill="url(#bg1)"/>
-  <ellipse cx="1020" cy="470" rx="460" ry="340" fill="url(#bg2)"/>
+  <ellipse cx="600" cy="280" rx="500" ry="400" fill="url(#bg1)"/>
 
-  <!-- Brand lockup top-left -->
-  <g transform="translate(80, 76)">
-    <g fill="#11122D">
-      <ellipse cx="38" cy="60" rx="30" ry="18"/>
-      <ellipse cx="68" cy="54" rx="8" ry="5.5"/>
-      <ellipse cx="24" cy="74" rx="5" ry="4"/>
-      <ellipse cx="52" cy="74" rx="5" ry="4"/>
+  <!-- Brand centered -->
+  <g transform="translate(600, 70)" text-anchor="middle">
+    <!-- Tortoise silhouette -->
+    <g fill="#11122D" transform="translate(-60, 0) scale(0.7)">
+      <ellipse cx="38" cy="42" rx="26" ry="15"/>
+      <ellipse cx="60" cy="37" rx="7" ry="5"/>
+      <ellipse cx="22" cy="54" rx="4" ry="3.5"/>
+      <ellipse cx="48" cy="54" rx="4" ry="3.5"/>
     </g>
-    <g fill="#11122D" transform="translate(78, 0)">
-      <ellipse cx="30" cy="62" rx="18" ry="14"/>
-      <ellipse cx="18" cy="44" rx="10" ry="11"/>
-      <ellipse cx="14" cy="22" rx="4" ry="16" transform="rotate(-10 14 22)"/>
-      <ellipse cx="22" cy="22" rx="4" ry="16" transform="rotate(5 22 22)"/>
-      <ellipse cx="36" cy="72" rx="10" ry="6"/>
-      <ellipse cx="14" cy="60" rx="4" ry="7"/>
+    <!-- Hare silhouette -->
+    <g fill="#11122D" transform="translate(10, 0) scale(0.7)">
+      <ellipse cx="30" cy="44" rx="15" ry="11"/>
+      <ellipse cx="18" cy="30" rx="8" ry="9"/>
+      <ellipse cx="14" cy="12" rx="3.5" ry="13" transform="rotate(-10 14 12)"/>
+      <ellipse cx="22" cy="12" rx="3.5" ry="13" transform="rotate(5 22 12)"/>
+      <ellipse cx="36" cy="52" rx="8" ry="5"/>
     </g>
-    <text x="180" y="48"
+    <text x="0" y="90"
           font-family="'Libre Baskerville', Georgia, serif"
-          font-weight="700" font-size="30"
+          font-weight="700" font-size="24"
           fill="#11122D"
-          letter-spacing="-0.5">Tortoise &amp; Hare</text>
-    <text x="180" y="80"
-          font-family="'JetBrains Mono', monospace"
-          font-weight="400" font-size="16"
-          fill="#6B7280"
-          letter-spacing="3">WELLNESS</text>
+          text-anchor="middle">Tortoise &amp; Hare Wellness</text>
   </g>
 
-  <!-- Headline -->
-  <g transform="translate(80, 250)">
-    <text x="0" y="0"
-          font-family="'Libre Baskerville', Georgia, serif"
-          font-weight="700" font-size="86"
-          fill="#11122D"
-          letter-spacing="-2">The signals a team</text>
-    <text x="0" y="100"
-          font-family="'Libre Baskerville', Georgia, serif"
-          font-style="italic" font-weight="400" font-size="92"
-          fill="#10B981"
-          letter-spacing="-2">never says</text>
-    <text x="0" y="200"
-          font-family="'Libre Baskerville', Georgia, serif"
-          font-weight="700" font-size="86"
-          fill="#11122D"
-          letter-spacing="-2">out loud.</text>
+  <!-- Headline centered -->
+  <text x="600" y="270"
+        font-family="'Libre Baskerville', Georgia, serif"
+        font-weight="700" font-size="72"
+        fill="#11122D" text-anchor="middle"
+        letter-spacing="-2">The signals a team</text>
+  <text x="600" y="360"
+        font-family="'Libre Baskerville', Georgia, serif"
+        font-style="italic" font-weight="400" font-size="82"
+        fill="#10B981" text-anchor="middle"
+        letter-spacing="-2">never says</text>
+  <text x="600" y="450"
+        font-family="'Libre Baskerville', Georgia, serif"
+        font-weight="700" font-size="72"
+        fill="#11122D" text-anchor="middle"
+        letter-spacing="-2">out loud.</text>
+
+  <!-- Pulse line -->
+  <g transform="translate(0, 510)" opacity="0.7">
+    <line x1="0" y1="15" x2="1200" y2="15" stroke="#11122D" stroke-opacity="0.08" stroke-width="1"/>
+    <path d="M200 15 L500 15 L520 5 L540 25 L560 -10 L580 40 L600 15 L700 15 L720 5 L740 25 L760 -10 L780 40 L800 15 L1000 15"
+          fill="none" stroke="#10B981" stroke-width="2.5"/>
   </g>
 
-  <!-- Pulse line (heartbeat) at bottom -->
-  <g transform="translate(0, 540)" opacity="0.9">
-    <line x1="0" y1="15" x2="1200" y2="15" stroke="#11122D" stroke-opacity="0.12" stroke-width="1"/>
-    <path d="M0 15 L380 15 L400 15 L420 5 L440 25 L460 -15 L480 45 L500 15 L820 15 L840 5 L860 25 L880 -15 L900 45 L920 15 L1200 15"
-          fill="none" stroke="#10B981" stroke-width="2"
-          filter="drop-shadow(0 0 4px rgba(16,185,129,0.4))"/>
-  </g>
-
-  <!-- Tagline bottom-left -->
-  <text x="80" y="590"
+  <text x="600" y="590"
         font-family="'JetBrains Mono', monospace"
-        font-size="18" font-weight="500"
-        fill="#6B7280"
-        letter-spacing="3">PSYCHOLOGICAL SAFETY · LISTENED TO</text>
+        font-size="15" font-weight="500"
+        fill="#6B7280" text-anchor="middle"
+        letter-spacing="4">PSYCHOLOGICAL SAFETY, LISTENED TO</text>
 </svg>
