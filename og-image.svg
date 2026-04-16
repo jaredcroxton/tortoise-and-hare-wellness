@@ -36,17 +36,17 @@
   <!-- Headline centered -->
   <text x="600" y="270"
         font-family="'Libre Baskerville', Georgia, serif"
-        font-weight="700" font-size="72"
+        font-weight="700" font-size="56"
         fill="#11122D" text-anchor="middle"
         letter-spacing="-2">The signals a team</text>
-  <text x="600" y="360"
+  <text x="600" y="350"
         font-family="'Libre Baskerville', Georgia, serif"
-        font-style="italic" font-weight="400" font-size="82"
+        font-style="italic" font-weight="400" font-size="65"
         fill="#10B981" text-anchor="middle"
         letter-spacing="-2">never says</text>
-  <text x="600" y="450"
+  <text x="600" y="430"
         font-family="'Libre Baskerville', Georgia, serif"
-        font-weight="700" font-size="72"
+        font-weight="700" font-size="56"
         fill="#11122D" text-anchor="middle"
         letter-spacing="-2">out loud.</text>
 
